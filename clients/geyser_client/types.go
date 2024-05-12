@@ -2,7 +2,8 @@ package geyser_client
 
 import (
 	"context"
-	"github.com/weeaa/jito-go/proto"
+
+	"github.com/MilanFt/jito-go/proto"
 	"google.golang.org/grpc"
 )
 

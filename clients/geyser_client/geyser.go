@@ -4,8 +4,9 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/weeaa/jito-go/pkg"
-	"github.com/weeaa/jito-go/proto"
+
+	"github.com/MilanFt/jito-go/pkg"
+	"github.com/MilanFt/jito-go/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

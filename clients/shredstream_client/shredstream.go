@@ -3,10 +3,11 @@ package shredstream_client
 import (
 	"context"
 	"crypto/tls"
+
+	"github.com/MilanFt/jito-go/pkg"
+	"github.com/MilanFt/jito-go/proto"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/weeaa/jito-go/pkg"
-	"github.com/weeaa/jito-go/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
